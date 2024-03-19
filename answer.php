@@ -15,7 +15,6 @@
   <link rel="manifest" href="site.webmanifest" />
   <title>The address program,in PHP</title>
 </head>
-
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -29,26 +28,15 @@
         <img src="./images/street.jpg" alt="street image" width="250" />
       </div>
       <div class="page-content-php">
-        <form action="answer.php" method="POST">
-          <p>street number</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="number">
-            <label class="mdl-textfield__label" for="name-input">street number here ...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          <br />
-          <p>street name</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" name="name">
-            <label class="mdl-textfield__label" for="age-input">street name here ...</label>
-          </div>
-          <br />
-          <!-- Accent-colored raised button with ripple -->
-          <input class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
-        </form>
+        <div id="user-info">
+          <?php
+          $number = $_POST["number"];
+          $name = $_POST["name"];
+          echo "Your address is: " . $number . " " . $name . ".";
+          ?>
+        </div>
       </div>
     </main>
   </div>
 </body>
-
 </html>
