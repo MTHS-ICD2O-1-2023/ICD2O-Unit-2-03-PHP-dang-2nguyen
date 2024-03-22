@@ -18,7 +18,7 @@ body {
 }
 
 p {
-  color: white;
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   padding-top: 5pt;
@@ -29,7 +29,7 @@ img {
   height: 200px;
 }
 
-.wrap {
+#user-info {
   border: solid 5px black;
   width: 500px;
 }

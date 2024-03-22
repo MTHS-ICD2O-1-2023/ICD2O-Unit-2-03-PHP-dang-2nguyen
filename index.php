@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="The address program, in PHP" />
+  <meta name="description" content="Area and Perimeter of Rectangle, in PHP" />
   <meta name="keywords" content="mths, ics2o" />
-  <meta name="author" content="Dang" />
+  <meta name="author" content="Mr. Coxall" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -13,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="manifest" href="site.webmanifest" />
-  <title>The address program,in PHP</title>
+  <title>Perimeter of sqaure</title>
 </head>
 
 <body>
@@ -21,33 +22,28 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">The address program, in PHP</span>
+        <span class="mdl-layout-title">Perimeter of square</span>
       </div>
     </header>
-    <main class="mdl-layout__content">
+    <br />
+    <center>
       <div class="right-image">
-        <img src="./images/street.jpg" alt="street image" width="250" />
+        <img src="./images/Square-Perimeter-582x267.png" alt="laptop image" width="250" />
       </div>
-      <div class="page-content-php">
+      <div class="wrap">
         <form action="answer.php" method="POST">
-          <p>street number</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="number">
-            <label class="mdl-textfield__label" for="name-input">street number here ...</label>
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="length-of-square">
+            <label class="mdl-textfield__label" for="length-of-square">Length of square (cm)</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
-          <br />
-          <p>street name</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" name="name">
-            <label class="mdl-textfield__label" for="age-input">street name here ...</label>
-          </div>
-          <br />
           <!-- Accent-colored raised button with ripple -->
-          <input class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+            Calculate
+          </button>
         </form>
-      </div>
-    </main>
+    </center>
+  </div>
   </div>
 </body>
 
