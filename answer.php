@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <meta name="description" content="Perimeter of square, in PHP" />
@@ -30,6 +29,7 @@
       </div>
       <div class="page-content-php">
         <div id="user-info">
+          <h2>Result</h2>
           <?php
           $lengthOfSquare = $_POST["length-of-square"];
           // process  
@@ -45,5 +45,4 @@
   </div>
 </center>
 </body>
-
 </html>

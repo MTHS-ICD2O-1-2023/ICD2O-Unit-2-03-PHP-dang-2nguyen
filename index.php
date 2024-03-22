@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <meta name="description" content="Area and Perimeter of Rectangle, in PHP" />
@@ -16,7 +15,6 @@
   <link rel="manifest" href="site.webmanifest" />
   <title>Perimeter of sqaure</title>
 </head>
-
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -46,5 +44,4 @@
   </div>
   </div>
 </body>
-
 </html>
